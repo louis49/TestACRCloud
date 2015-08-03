@@ -6,6 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		891460291B6F8825002C4EA9 /* FFMPEG */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8914602A1B6F8825002C4EA9 /* Build configuration list for PBXAggregateTarget "FFMPEG" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FFMPEG;
+			productName = FFMPEG;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		89145FF31B6F5648002C4EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89145FF21B6F5648002C4EA9 /* AppDelegate.swift */; };
 		89145FF51B6F5648002C4EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89145FF41B6F5648002C4EA9 /* ViewController.swift */; };
@@ -13,6 +26,14 @@
 		89145FFA1B6F5648002C4EA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89145FF91B6F5648002C4EA9 /* Images.xcassets */; };
 		89145FFD1B6F5648002C4EA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89145FFB1B6F5648002C4EA9 /* LaunchScreen.xib */; };
 		891460091B6F5648002C4EA9 /* TestACRCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891460081B6F5648002C4EA9 /* TestACRCloudTests.swift */; };
+		891460131B6F5668002C4EA9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891460121B6F5668002C4EA9 /* Security.framework */; };
+		891460151B6F566E002C4EA9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 891460141B6F566E002C4EA9 /* libc++.dylib */; };
+		891460171B6F5672002C4EA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891460161B6F5672002C4EA9 /* AVFoundation.framework */; };
+		891460191B6F5679002C4EA9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891460181B6F5679002C4EA9 /* AudioToolbox.framework */; };
+		8914601B1B6F5683002C4EA9 /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8914601A1B6F5683002C4EA9 /* libACRCloud_IOS_SDK.a */; };
+		891460231B6F5760002C4EA9 /* ACRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891460221B6F5760002C4EA9 /* ACRManager.swift */; };
+		891460251B6F5F23002C4EA9 /* MicrophoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891460241B6F5F23002C4EA9 /* MicrophoneManager.swift */; };
+		8914602E1B6F8946002C4EA9 /* LIVE.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8914602D1B6F8946002C4EA9 /* LIVE.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +57,18 @@
 		891460021B6F5648002C4EA9 /* TestACRCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestACRCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		891460071B6F5648002C4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891460081B6F5648002C4EA9 /* TestACRCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestACRCloudTests.swift; sourceTree = "<group>"; };
+		891460121B6F5668002C4EA9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		891460141B6F566E002C4EA9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		891460161B6F5672002C4EA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		891460181B6F5679002C4EA9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8914601A1B6F5683002C4EA9 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+		8914601C1B6F5698002C4EA9 /* ACRCloudConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		8914601D1B6F5698002C4EA9 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		8914601E1B6F56EE002C4EA9 /* TestACRCloud-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestACRCloud-Bridging-Header.h"; sourceTree = "<group>"; };
+		891460221B6F5760002C4EA9 /* ACRManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACRManager.swift; sourceTree = "<group>"; };
+		891460241B6F5F23002C4EA9 /* MicrophoneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneManager.swift; sourceTree = "<group>"; };
+		891460281B6F87EC002C4EA9 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		8914602D1B6F8946002C4EA9 /* LIVE.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LIVE.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891460191B6F5679002C4EA9 /* AudioToolbox.framework in Frameworks */,
+				891460171B6F5672002C4EA9 /* AVFoundation.framework in Frameworks */,
+				891460151B6F566E002C4EA9 /* libc++.dylib in Frameworks */,
+				8914601B1B6F5683002C4EA9 /* libACRCloud_IOS_SDK.a in Frameworks */,
+				891460131B6F5668002C4EA9 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +97,16 @@
 		89145FE41B6F5648002C4EA9 = {
 			isa = PBXGroup;
 			children = (
+				891460281B6F87EC002C4EA9 /* ffmpeg */,
+				8914602D1B6F8946002C4EA9 /* LIVE.mp4 */,
+				8914601E1B6F56EE002C4EA9 /* TestACRCloud-Bridging-Header.h */,
+				8914601A1B6F5683002C4EA9 /* libACRCloud_IOS_SDK.a */,
+				8914601C1B6F5698002C4EA9 /* ACRCloudConfig.h */,
+				8914601D1B6F5698002C4EA9 /* ACRCloudRecognition.h */,
+				891460181B6F5679002C4EA9 /* AudioToolbox.framework */,
+				891460161B6F5672002C4EA9 /* AVFoundation.framework */,
+				891460141B6F566E002C4EA9 /* libc++.dylib */,
+				891460121B6F5668002C4EA9 /* Security.framework */,
 				89145FEF1B6F5648002C4EA9 /* TestACRCloud */,
 				891460051B6F5648002C4EA9 /* TestACRCloudTests */,
 				89145FEE1B6F5648002C4EA9 /* Products */,
@@ -77,12 +125,14 @@
 		89145FEF1B6F5648002C4EA9 /* TestACRCloud */ = {
 			isa = PBXGroup;
 			children = (
+				891460241B6F5F23002C4EA9 /* MicrophoneManager.swift */,
 				89145FF21B6F5648002C4EA9 /* AppDelegate.swift */,
 				89145FF41B6F5648002C4EA9 /* ViewController.swift */,
 				89145FF61B6F5648002C4EA9 /* Main.storyboard */,
 				89145FF91B6F5648002C4EA9 /* Images.xcassets */,
 				89145FFB1B6F5648002C4EA9 /* LaunchScreen.xib */,
 				89145FF01B6F5648002C4EA9 /* Supporting Files */,
+				891460221B6F5760002C4EA9 /* ACRManager.swift */,
 			);
 			path = TestACRCloud;
 			sourceTree = "<group>";
@@ -166,6 +216,9 @@
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 89145FEC1B6F5648002C4EA9;
 					};
+					891460291B6F8825002C4EA9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 				};
 			};
 			buildConfigurationList = 89145FE81B6F5648002C4EA9 /* Build configuration list for PBXProject "TestACRCloud" */;
@@ -183,6 +236,7 @@
 			targets = (
 				89145FEC1B6F5648002C4EA9 /* TestACRCloud */,
 				891460011B6F5648002C4EA9 /* TestACRCloudTests */,
+				891460291B6F8825002C4EA9 /* FFMPEG */,
 			);
 		};
 /* End PBXProject section */
@@ -195,6 +249,7 @@
 				89145FF81B6F5648002C4EA9 /* Main.storyboard in Resources */,
 				89145FFD1B6F5648002C4EA9 /* LaunchScreen.xib in Resources */,
 				89145FFA1B6F5648002C4EA9 /* Images.xcassets in Resources */,
+				8914602E1B6F8946002C4EA9 /* LIVE.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89145FF51B6F5648002C4EA9 /* ViewController.swift in Sources */,
+				891460251B6F5F23002C4EA9 /* MicrophoneManager.swift in Sources */,
+				891460231B6F5760002C4EA9 /* ACRManager.swift in Sources */,
 				89145FF31B6F5648002C4EA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +399,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestACRCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestACRCloud-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestACRCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestACRCloud-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -392,6 +463,22 @@
 			};
 			name = Release;
 		};
+		8914602B1B6F8825002C4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8914602C1B6F8825002C4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +504,14 @@
 			buildConfigurations = (
 				891460101B6F5648002C4EA9 /* Debug */,
 				891460111B6F5648002C4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8914602A1B6F8825002C4EA9 /* Build configuration list for PBXAggregateTarget "FFMPEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8914602B1B6F8825002C4EA9 /* Debug */,
+				8914602C1B6F8825002C4EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
